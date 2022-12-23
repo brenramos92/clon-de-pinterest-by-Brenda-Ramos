@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    height: 70px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin-top: 40px;
+    }
+.header {
+        display: grid;
+        grid-template-columns:repeat(4,30%, 20%, 45%,15%);
+        background-color: white;
+        font-size: 100%; 
+        align-items: center; 
+        margin-left: 5px; 
+}
+
+.logo-header{ height:  50px; padding:100;}
+.menu-header{ text-decoration: none; color: black; padding: 3px;}
+.input-header{width: 200px;
+    height: 70px;
+    margin-top: 3px;
+    background-color:white;
+    padding: 4px;}
+ 
+
+nav a{
+font-weight: 400;
+padding-right: 10px;
+}
+
+nav a:hover{
+    color: red;
+}
+a {
+    text-decoration: none;color: black; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+body{
+    background-color: white;
+    margin: 1em;}
+
+img{ display: block;
+    outline: 2px solid white;
+    max-width: 220px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.galeria-fotos {
+columns: 6 220px;
+column-gap: 15px;}
+
+.pie-pagina {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium; 
+    align-items: flex-end;
+    padding: 5px;
+    color: fuchsia;}
+    
