@@ -1,0 +1,17 @@
+*{
+    margin: 20px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name{
+    width: 200px;
+    
+}
+
+.image-profile{
+    width: 250px;
+    display: flex;
+    float: right;
+border-radius: 6px;
+
+}
